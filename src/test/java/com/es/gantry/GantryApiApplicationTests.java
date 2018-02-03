@@ -1,4 +1,4 @@
-package com.es.gantry.gantryapi;
+package com.es.gantry;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
