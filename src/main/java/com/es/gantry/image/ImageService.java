@@ -10,6 +10,7 @@ import java.util.Optional;
 public interface ImageService {
 
     List<Image> findAll();
+    List<Image> findAllMatching(String pattern);
     List<Image> findAll(Pageable pageable);
     Optional<Image> findById(String id);
     Optional<Image> findByName(String name);
